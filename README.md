@@ -36,12 +36,15 @@ When I got this first time, I panicked as I thought that **we now actually finis
 You can check the final submission form by
 
 1) going to the OR homepage
+
 ![screenshot](img/screenshot9.jpg)
 
 2) click on "EMNLP 2025 System Demonstrations"
+
 ![screenshot](img/screenshot10.jpg)
 
 3) click on "EMNLP 2025 System Demonstration Submission"
+
 ![screenshot](img/screenshot11.jpg)
 
 ### Skipping "Bid Stage"
