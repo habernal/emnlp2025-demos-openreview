@@ -1,0 +1,546 @@
+Manling Li
+18 Apr 2024 (modified: 21 Oct 2024)OpenReview Support Request FormReaders: Support, Manling Li, manling.li@northwestern.edu, tomh@allenai.org, dirazuhf@inaoep.mx, ma4608@columbia.edu, croce@info.uniroma2.it, gosahin@ku.edu.trShow Revisions
+Official Venue Name: EMNLP 2024 System Demonstration Track
+Abbreviated Venue Name: EMNLP24 Demo
+Official Website URL: https://2024.emnlp.org/
+Program Chair Emails: manling.li@northwestern.edu, tomh@allenai.org, dirazuhf@inaoep.mx
+Contact Email: manling.li@northwestern.edu
+Publication Chairs: Yes, our venue has Publication Chairs
+Publication Chairs Emails: ma4608@columbia.edu, croce@info.uniroma2.it, gosahin@ku.edu.tr
+Area Chairs (Metareviewers): Yes, our venue has Area Chairs
+Senior Area Chairs: Yes, our venue has Senior Area Chairs
+Senior Area Chairs Assignment: Area Chairs
+Ethics Chairs And Reviewers: Yes, our venue has Ethics Chairs and Reviewers
+Submission Deadline: 2024/08/12 11:59
+Venue Start Date: 2024/11/12
+Location: Thailand
+Submission License: CC BY 4.0
+Submission Deadline Author Reorder: No
+Submission Reviewer Assignment: Automatic
+Author And Reviewer Anonymity: Single-blind (Reviewers are anonymous)
+Reviewer Identity: Program Chairs, Assigned Senior Area Chair, Assigned Area Chair
+Area Chair Identity: Program Chairs, Assigned Senior Area Chair, Assigned Area Chair
+Senior Area Chair Identity: Program Chairs, Assigned Senior Area Chair
+Force Profiles Only: Yes, require all authors to have an OpenReview profile
+Submission Readers: Assigned program committee (assigned reviewers, assigned area chairs, assigned senior area chairs if applicable)
+Withdrawn Submissions Visibility: No, withdrawn submissions should not be made public.
+Withdrawn Submissions Author Anonymity: No, author identities of withdrawn submissions should not be revealed.
+Email Pcs For Withdrawn Submissions: Yes, email PCs.
+Desk Rejected Submissions Visibility: No, desk rejected submissions should not be made public.
+Desk Rejected Submissions Author Anonymity: No, author identities of desk rejected submissions should not be revealed.
+Email Pcs For Desk Rejected Submissions: No, do not email PCs.
+Expected Submissions: 150
+Email Pcs For New Submissions: No, do not email PCs.
+Submission Name: Submission
+Reviewer Roles: Reviewers
+Area Chair Roles: Area_Chairs
+Senior Area Chair Roles: Senior_Area_Chairs
+Use Recruitment Template: No
+Api Version: 2
+Include Expertise Selection: No
+Commitments Venue: No
+IThenticate Plagiarism Check: No
+Venue Id: EMNLP/2024/Demo_Track
+Additional Submission Options: {
+    url: {
+        order: 20,
+        description: A link to a live demo website; or a link to a downloadable installation package of the demo. Note that this is a strict requirement enforced this year, and submissions that do not provide links will be desk rejected. Exceptions will be made only in cases where sharing a link is clearly impossible, such as when special hardware is required. In such cases, authors must clearly state why a link cannot be provided in this slot.,
+        value: {
+            param: {
+                type: string,
+                maxLength: 1000
+            }
+        }
+    },
+    video: {
+        order: 21,
+        description: Included a short (at most 2.5 minutes) screencast video demonstrating the system together with your paper submission. This screencast will be used to evaluate the paper, but won’t be published unless requested. This screencast will be used to evaluate the paper, but won’t be published unless requested. For demos that can be presented on a screen, a screencast with audio narration is the most suitable format. If this is not feasible, a video showcasing user interaction with the system may be utilized. Production quality is not a priority, so we encourage to simply create a screencast of the software being demoed with minimal to no editing. ,
+        value: {
+            param: {
+                type: string,
+                enum: [
+                    As a Link,
+                    As Supplementary Material
+                ],
+                input: radio
+            }
+        }
+    },
+    video_link: {
+        order: 22,
+        description: We encourage publishing your video on YouTube or a similar site and including the link in your paper. If you prefer not to upload the video publicly, please submit it as supplementary material in MPEG4 format when you submit your paper through the official website.,
+        value: {
+            param: {
+                type: string,
+                maxLength: 1000,
+                optional: true
+            }
+        }
+    },
+    supplementary_material: {
+        order: 23,
+        value: {
+            param: {
+                type: file,
+                extensions: [
+                    zip,
+                    pdf
+                ],
+                maxSize: 100,
+                optional: true,
+                deletable: true
+            }
+        },
+        description: All supplementary material must be self-contained and zipped into a single file. Note that supplementary material will be visible to reviewers throughout the review period. The maximum file size is 100MB.
+    }
+}
+Submission Email: Your submission to {{Abbreviated_Venue_Name}} has been {{action}}.
+
+Submission Number: {{note_number}}
+
+Title: {{note_title}} {{note_abstract}}
+
+To view your submission, click here: /forum?id={{note_forum}}
+Review Name: Official_Review
+Review Start Date: 2024/09/01
+Review Deadline: 2024/09/23
+Make Reviews Public: No, reviews should NOT be revealed publicly when they are posted
+Release Reviews To Authors: Yes, reviews should be revealed when they are posted to the paper's authors
+Release Reviews To Reviewers: Reviews should be immediately revealed to the paper's reviewers who have already submitted their review
+Email Program Chairs About Reviews: No, do not email program chairs about received reviews
+Review Rating Field Name: rating
+Review Confidence Field Name: confidence
+Additional Review Form Options: {
+    summary: {
+        order: 1,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true
+            }
+        },
+        description: What is this paper about and what contributions does it make? Please describe what problem this demo addresses, and the main contributions that it makes towards a solution. Please make sure to check the video and demo links.
+    },
+    reasons_to_accept: {
+        order: 2,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true
+            }
+        },
+        description: What are the strengths of this paper and what would be the main benefits to the NLP community if this paper were to be presented at the conference?
+    },
+    reasons_to_reject: {
+        order: 3,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true
+            }
+        },
+        description: What are the weaknesses of this paper and what would be the main risks of having this paper presented at the conference (other than lack of space to present better papers)?
+    },
+    questions_and_additional_feedback: {
+        order: 4,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true
+            }
+        },
+        description: Please write any questions you have for the author(s) that you would like answers for in the author response, particularly those that are relevant for your overall recommendation.
+    },
+    ethical_concerns: {
+        order: 5,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true,
+                optional: true
+            }
+        },
+        description: If there are ethical issues with this paper, please describe them and the extent to which they have been acknowledged or addressed by the authors.
+    },
+    needs_ethical_review: {
+        order: 6,
+        description: If there are ethical issues with this paper, please select yes.,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 1,
+                        description: Yes
+                    },
+                    {
+                        value: 0,
+                        description: No
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    reproducibility: {
+        order: 7,
+        description: Is there enough information in the provided demo link for a reader to reproduce the system results or run the system? For example, a live demo can be helpful and a demo set up instruction is help,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 5,
+                        description: 5: They could easily reproduce the results.
+                    },
+                    {
+                        value: 4,
+                        description: 4: They could mostly reproduce the results, but there may be some variation because of sample variance or minor variations in their interpretation of the protocol or method.
+                    },
+                    {
+                        value: 3,
+                        description: 3: They could reproduce the results with some difficulty. The settings of parameters are underspecified or subjectively determined, and/or the training/evaluation data are not widely available.
+                    },
+                    {
+                        value: 2,
+                        description: 2: They would be hard pressed to reproduce the results: The contribution depends on data that are simply not available outside the author’s institution or consortium and/or not enough details are provided.
+                    },
+                    {
+                        value: 1,
+                        description: 1: They would not be able to reproduce the results here no matter how hard they tried.
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    software: {
+        order: 8,
+        description: How valuable will the software and live demo be to others?,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 5,
+                        description: 5: Enabling: The newly released software should affect other people’s choice of research or development projects to undertake.
+                    },
+                    {
+                        value: 4,
+                        description: 4: Useful: I would recommend the new software to other researchers or developers for their ongoing work.
+                    },
+                    {
+                        value: 3,
+                        description: 3: Potentially useful: Someone might find the new software useful for their work.
+                    },
+                    {
+                        value: 2,
+                        description: 2: Documentary: The new software will be useful to study or replicate the reported research, although for other purposes it may have limited interest or limited usability. (Still a positive rating)
+                    },
+                    {
+                        value: 1,
+                        description: 1: No usable software released.
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    datasets: {
+        order: 9,
+        description: If the authors state (in anonymous fashion) that datasets will be released, how valuable will they be to others?,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 5,
+                        description: 5: Enabling: The newly released datasets should affect other people’s choice of research or development projects to undertake.
+                    },
+                    {
+                        value: 4,
+                        description: 4: Useful: I would recommend the new datasets to other researchers or developers for their ongoing work.
+                    },
+                    {
+                        value: 3,
+                        description: 3: Potentially useful: Someone might find the new datasets useful for their work.
+                    },
+                    {
+                        value: 2,
+                        description: 2: Documentary: The new datasets will be useful to study or replicate the reported research, although for other purposes they may have limited interest or limited usability. (Still a positive rating)
+                    },
+                    {
+                        value: 1,
+                        description: 1: No usable datasets submitted.
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    overall_assessment: {
+        order: 10,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 10,
+                        description: 10: Top 5% of accepted papers, seminal paper
+                    },
+                    {
+                        value: 9,
+                        description: 9: Top 15% of accepted papers, strong accept
+                    },
+                    {
+                        value: 8,
+                        description: 8: Top 50% of accepted papers, clear accept
+                    },
+                    {
+                        value: 7,
+                        description: 7: Good paper, accept
+                    },
+                    {
+                        value: 6,
+                        description: 6: Marginally above acceptance threshold
+                    },
+                    {
+                        value: 5,
+                        description: 5: Marginally below acceptance threshold
+                    },
+                    {
+                        value: 4,
+                        description: 4: Ok but not good enough - rejection
+                    },
+                    {
+                        value: 3,
+                        description: 3: Clear rejection
+                    },
+                    {
+                        value: 2,
+                        description: 2: Strong rejection
+                    },
+                    {
+                        value: 1,
+                        description: 1: Trivial or wrong
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    best_paper_nomination: {
+        order: 11,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 1,
+                        description: Yes
+                    },
+                    {
+                        value: 0,
+                        description: No
+                    },
+                    {
+                        value: 2,
+                        description: Maybe
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    reasons_for_best_paper_nomination: {
+        order: 12,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true,
+                optional: true
+            }
+        },
+        description: Could the camera-ready version of this paper merit consideration for an ‘outstanding paper’ award (up to 2.5% of accepted papers at *ACL conferences will be recognized in this way)? Outstanding papers should be either fascinating, controversial, surprising, impressive, or potentially field-changing. Awards will be decided based on the camera-ready version of the paper.
+    },
+    confidence: {
+        order: 13,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 5,
+                        description: 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature
+                    },
+                    {
+                        value: 4,
+                        description: 4: The reviewer is confident but not absolutely certain that the evaluation is correct
+                    },
+                    {
+                        value: 3,
+                        description: 3: The reviewer is fairly confident that the evaluation is correct
+                    },
+                    {
+                        value: 2,
+                        description: 2: The reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper
+                    },
+                    {
+                        value: 1,
+                        description: 1: The reviewer's evaluation is an educated guess
+                    }
+                ],
+                input: select
+            }
+        }
+    }
+}
+Force: No
+Review Expiration Date: 2024/10/08
+Meta Review Start Date: 2024/09/21
+Meta Review Deadline: 2024/09/29
+Meta Review Expiration Date: 2024/10/08
+Make Meta Reviews Public: No, meta reviews should NOT be revealed publicly when they are posted
+Release Meta Reviews To Authors: Yes, meta reviews should be revealed when they are posted to the paper's authors
+Release Meta Reviews To Reviewers: Meta reviews should be immediately revealed to the paper's reviewers who have already submitted their review
+Recommendation Field Name: recommendation
+Additional Meta Review Form Options: {
+    overall_assessment: {
+        order: 1,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 3,
+                        description: 3: Clear accept
+                    },
+                    {
+                        value: 2,
+                        description: 2: Maybe accept to demo track
+                    },
+                    {
+                        value: 1,
+                        description: 1: Clear reject
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    best_paper_nomination: {
+        order: 4,
+        value: {
+            param: {
+                type: integer,
+                enum: [
+                    {
+                        value: 1,
+                        description: Yes
+                    },
+                    {
+                        value: 0,
+                        description: No
+                    },
+                    {
+                        value: 2,
+                        description: Maybe
+                    }
+                ],
+                input: select
+            }
+        }
+    },
+    reasons_for_best_paper_nomination: {
+        order: 5,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true,
+                optional: true
+            }
+        },
+        description: Could the camera-ready version of this paper merit consideration for an ‘outstanding paper’ award (up to 2.5% of accepted papers at *ACL conferences will be recognized in this way)? Outstanding papers should be either fascinating, controversial, surprising, impressive, or potentially field-changing. Awards will be decided based on the camera-ready version of the paper.
+    },
+    bad_review: {
+        order: 6,
+        value: {
+            param: {
+                type: string,
+                minLength: 1,
+                maxLength: 20000,
+                input: textarea,
+                markdown: true,
+                optional: true
+            }
+        },
+        description: Please identify bad reviews by indicting the reviewer ID, separating with a comma.
+    }
+}
+Decision Start Date: 2024/10/01
+Decision Deadline: 2024/10/05
+Decision Options: Accept, Reject
+Make Decisions Public: No, decisions should NOT be revealed publicly when they are posted
+Release Decisions To Authors: Yes, decisions should be revealed when they are posted to the paper's authors
+Release Decisions To Reviewers: Yes, decisions should be immediately revealed to the paper's reviewers
+Release Decisions To Area Chairs: Yes, decisions should be immediately revealed to the paper's area chairs
+Notify Authors: No, I will send the emails to the authors
+Submission Revision Name: Camera Ready
+Submission Revision Start Date: 2024/10/06
+Submission Revision Deadline: 2024/10/23
+Accepted Submissions Only: Enable revision for accepted submissions only
+Submission Author Edition: Allow addition and removal of authors
+Send Decision Notifications: Yes, send an email notification to the authors
+Accept Email Content: Dear {{fullname}},
+
+Thank you for submitting your paper, {{submission_title}}, to EMNLP24 Demo Track. We are delighted to inform you that your submission has been accepted. This year, with the introduction of new requirements for links of live demos and video demos, the quality, the completeness, and competitiveness of submissions have significantly increased. Congratulations!
+
+Please find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
+
+Please prepare the camera ready following the ACL main conference. Due to the delay in the notifications, we will extend the camera ready deadline to October 20 11:59pm anywhere on earth. To upload a camera-ready version of your paper, simply go to your paper forum and click on the Edit button. The submissions instructions are the same as EMNLP main conference, with only difference in the page limits: final version of demo paper will be given one additional page of content (up to 7 pages) so that reviewers' comments can be taken into account. We do not have any length constraints for the Appendix in the final version.
+
+The final version should follow the EMNLP 2024 two-column format, using the supplied official style files. The templates can be downloaded in Style Files and Formatting. Please do not modify these style files, nor should you use templates designed for other conferences. Submissions that do not conform to the required styles, including paper size, margin width, and font size restrictions.
+
+[Verification] To guarantee conformance to publication standards, we will be using the ACL Pubcheck tool (https://github.com/acl-org/aclpubcheck). The PDFs of camera-ready papers must be run through this tool prior to their final submission. Please reach out to emnlp2024-demo-track@googlegroups.com if you have any questions.
+
+Best,
+EMNLP24 Demo Program Chairs
+Reject Email Content: Dear {{fullname}},
+
+We appreciate your submission of {{submission_title}}, to the EMNLP 2024 Demo Track. This year, with the introduction of new requirements for links of live demos and video demos, the quality and competitiveness of submissions have significantly increased.
+
+After careful discussion, we regret to inform you that your submission was not accepted for inclusion in the program.
+
+Please find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
+
+If you have any questions or require further clarification, please do not hesitate to contact us at emnlp2024-demo-track@googlegroups.com. Thank you for your contribution to the field, and we hope you'll consider submitting your work to future EMNLP conferences.
+
+Best,
+EMNLP24 Demo Program Chairs,
+Manling, Tom, Delia
+Home Page Tab Names: {
+    Accept: Accept,
+    Reject: Reject
+}
+

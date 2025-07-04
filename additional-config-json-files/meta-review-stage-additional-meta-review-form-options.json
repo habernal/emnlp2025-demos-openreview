@@ -1,0 +1,39 @@
+{
+  "overall_assessment": {
+    "order": 1,
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 3,
+            "description": "3: Clear accept"
+          },
+          {
+            "value": 2,
+            "description": "2: Maybe accept"
+          },
+          {
+            "value": 1,
+            "description": "1: Clear reject"
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "bad_review": {
+    "order": 6,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true,
+        "optional": true
+      }
+    },
+    "description": "Please identify bad reviews by indicating the reviewer ID, separating with a comma."
+  }
+}

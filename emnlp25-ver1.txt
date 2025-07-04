@@ -1,0 +1,113 @@
+Official Venue Name: The 2025 Conference on Empirical Methods in Natural Language Processing - System demonstrations
+Abbreviated Venue Name: EMNLP 2025 System demonstrations
+Official Website URL: https://2025.emnlp.org/
+Program Chair Emails: schulamp@amazon.com, jorg.tiedemann@helsinki.fi, ivan.habernal@ruhr-uni-bochum.de
+Contact Email: emnlp25-demo-chairs@lists.ruhr-uni-bochum.de
+Publication Chairs: Yes, our venue has Publication Chairs
+Publication Chairs Emails: ivan.habernal@ruhr-uni-bochum.de
+Area Chairs (Metareviewers): Yes, our venue has Area Chairs
+Senior Area Chairs: No, our venue does not have Senior Area Chairs
+Senior Area Chairs Assignment: Area Chairs
+Ethics Chairs And Reviewers: Yes, our venue has Ethics Chairs and Reviewers
+Submission Deadline: 2025/07/05 11:59
+Venue Start Date: 2025/10/05
+Location: Suzhou, China
+Submission License: CC BY 4.0
+Submission Deadline Author Reorder: No
+Submission Reviewer Assignment: Automatic
+Author And Reviewer Anonymity: Single-blind (Reviewers are anonymous)
+Reviewer Identity: Program Chairs, All Senior Area Chairs, Assigned Senior Area Chair, All Area Chairs, Assigned Area Chair
+Area Chair Identity: Program Chairs, Assigned Senior Area Chair, Assigned Area Chair
+Senior Area Chair Identity: Program Chairs, Assigned Senior Area Chair
+Force Profiles Only: No, allow submissions with email addresses
+Submission Readers: All program committee (all reviewers, all area chairs, all senior area chairs if applicable)
+Withdrawn Submissions Visibility: No, withdrawn submissions should not be made public.
+Withdrawn Submissions Author Anonymity: No, author identities of withdrawn submissions should not be revealed.
+Email Pcs For Withdrawn Submissions: No, do not email PCs.
+Desk Rejected Submissions Visibility: No, desk rejected submissions should not be made public.
+Desk Rejected Submissions Author Anonymity: No, author identities of desk rejected submissions should not be revealed.
+Email Pcs For Desk Rejected Submissions: No, do not email PCs.
+Expected Submissions: 200
+Email Pcs For New Submissions: No, do not email PCs.
+Other Important Information: We (EMNLP'25 demo chairs) are running this for the first time through OpenReview, so we might need some help with some particular setups. Many thanks in advance! Ivan
+Submission Name: Submission
+Reviewer Roles: Reviewers
+Area Chair Roles: Area_Chairs
+Senior Area Chair Roles: Senior_Area_Chairs
+Use Recruitment Template: No
+Api Version: 2
+Include Expertise Selection: No
+Commitments Venue: No
+IThenticate Plagiarism Check: No
+IThenticate Plagiarism Check Add To Index: No
+IThenticate Plagiarism Check Exclude Quotes: No
+IThenticate Plagiarism Check Exclude Bibliography: No
+IThenticate Plagiarism Check Exclude Abstract: No
+IThenticate Plagiarism Check Exclude Methods: No
+IThenticate Plagiarism Check Exclude Internet: No
+IThenticate Plagiarism Check Exclude Publications: No
+IThenticate Plagiarism Check Exclude Submitted Works: No
+IThenticate Plagiarism Check Exclude Citations: No
+IThenticate Plagiarism Check Exclude Preprints: No
+IThenticate Plagiarism Check Exclude Custom Sections: No
+Venue Id: EMNLP/2025/System_Demonstrations
+Additional Submission Options: {
+    url: {
+        order: 20,
+        description: A link to a live demo website; or a link to a downloadable installation package of the demo. Note that this is a strict requirement enforced this year, and submissions that do not provide links will be desk rejected. Exceptions will be made only in cases where sharing a link is clearly impossible, such as when special hardware is required. In such cases, authors must clearly state why a link cannot be provided in this slot.,
+        value: {
+            param: {
+                type: string,
+                maxLength: 1000
+            }
+        }
+    },
+    video: {
+        order: 21,
+        description: Included a short (at most 2.5 minutes) screencast video demonstrating the system together with your paper submission. This screencast will be used to evaluate the paper, but won’t be published unless requested. This screencast will be used to evaluate the paper, but won’t be published unless requested. For demos that can be presented on a screen, a screencast with audio narration is the most suitable format. If this is not feasible, a video showcasing user interaction with the system may be utilized. Production quality is not a priority, so we encourage to simply create a screencast of the software being demoed with minimal to no editing.,
+        value: {
+            param: {
+                type: string,
+                enum: [
+                    As a Link,
+                    As Supplementary Material
+                ],
+                input: radio
+            }
+        }
+    },
+    video_link: {
+        order: 22,
+        description: We encourage publishing your video on YouTube or a similar site and including the link in your paper. If you prefer not to upload the video publicly, please submit it as supplementary material in MPEG4 format when you submit your paper through the official website.,
+        value: {
+            param: {
+                type: string,
+                maxLength: 1000,
+                optional: true
+            }
+        }
+    },
+    supplementary_material: {
+        order: 23,
+        value: {
+            param: {
+                type: file,
+                extensions: [
+                    zip,
+                    pdf
+                ],
+                maxSize: 100,
+                optional: true,
+                deletable: true
+            }
+        },
+        description: All supplementary material must be self-contained and zipped into a single file. Note that supplementary material will be visible to reviewers throughout the review period. The maximum file size is 100MB.
+    }
+}
+Submission Email: Your submission to {{Abbreviated_Venue_Name}} has been {{action}}.
+
+Submission Number: {{note_number}}
+
+Title: {{note_title}} {{note_abstract}}
+
+To view your submission, click here: /forum?id={{note_forum}}

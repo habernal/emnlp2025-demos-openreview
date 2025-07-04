@@ -1,0 +1,53 @@
+{
+  "url": {
+    "order": 20,
+    "description": "A link to a live demo website; or a link to a downloadable installation package of the demo. Note that this is a strict requirement enforced this year, and submissions that do not provide links will be desk rejected. Exceptions will be made only in cases where sharing a link is clearly impossible, such as when special hardware is required. In such cases, authors must clearly state why a link cannot be provided in this slot.",
+    "value": {
+      "param": {
+        "type": "string",
+        "maxLength": 1000
+      }
+    }
+  },
+  "video": {
+    "order": 21,
+    "description": "Included a short (at most 2.5 minutes) screencast video demonstrating the system together with your paper submission. This screencast will be used to evaluate the paper, but won’t be published unless requested. This screencast will be used to evaluate the paper, but won’t be published unless requested. For demos that can be presented on a screen, a screencast with audio narration is the most suitable format. If this is not feasible, a video showcasing user interaction with the system may be utilized. Production quality is not a priority, so we encourage to simply create a screencast of the software being demoed with minimal to no editing.",
+    "value": {
+      "param": {
+        "type": "string",
+        "enum": [
+          "As a Link",
+          "As Supplementary Material"
+        ],
+        "input": "radio"
+      }
+    }
+  },
+  "video_link": {
+    "order": 22,
+    "description": "We encourage publishing your video on YouTube or a similar site and including the link in your paper. If you prefer not to upload the video publicly, please submit it as supplementary material in MPEG4 format when you submit your paper through the official website.",
+    "value": {
+      "param": {
+        "type": "string",
+        "maxLength": 1000,
+        "optional": true
+      }
+    }
+  },
+  "supplementary_material": {
+    "order": 23,
+    "value": {
+      "param": {
+        "type": "file",
+        "extensions": [
+          "zip",
+          "pdf"
+        ],
+        "maxSize": 100,
+        "optional": true,
+        "deletable": true
+      }
+    },
+    "description": "All supplementary material must be self-contained and zipped into a single file. Note that supplementary material will be visible to reviewers throughout the review period. The maximum file size is 100MB."
+  }
+}

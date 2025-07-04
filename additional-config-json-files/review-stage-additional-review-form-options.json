@@ -1,0 +1,266 @@
+{
+  "summary": {
+    "order": 1,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true
+      }
+    },
+    "description": "What is this paper about and what contributions does it make? Please describe what problem this demo addresses, and the main contributions that it makes towards a solution. Please make sure to check the video and demo links."
+  },
+  "reasons_to_accept": {
+    "order": 2,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true
+      }
+    },
+    "description": "What are the strengths of this paper and what would be the main benefits to the NLP community if this paper were to be presented at the conference?"
+  },
+  "reasons_to_reject": {
+    "order": 3,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true
+      }
+    },
+    "description": "What are the weaknesses of this paper and what would be the main risks of having this paper presented at the conference (other than lack of space to present better papers)?"
+  },
+  "questions_and_additional_feedback": {
+    "order": 4,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true
+      }
+    },
+    "description": "Please write any questions you have for the author(s) that you would like answers for in the author response, particularly those that are relevant for your overall recommendation."
+  },
+  "ethical_concerns": {
+    "order": 5,
+    "value": {
+      "param": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20000,
+        "input": "textarea",
+        "markdown": true,
+        "optional": true
+      }
+    },
+    "description": "If there are ethical issues with this paper, please describe them and the extent to which they have been acknowledged or addressed by the authors."
+  },
+  "needs_ethical_review": {
+    "order": 6,
+    "description": "If there are ethical issues with this paper, please select yes.,",
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 1,
+            "description": "Yes"
+          },
+          {
+            "value": 0,
+            "description": "No"
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "reproducibility": {
+    "order": 7,
+    "description": "Is there enough information in the provided demo link for a reader to reproduce the system results or run the system? For example, a live demo can be helpful and a demo set up instruction is help,",
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 5,
+            "description": "5: They could easily reproduce the results."
+          },
+          {
+            "value": 4,
+            "description": "4: They could mostly reproduce the results, but there may be some variation because of sample variance or minor variations in their interpretation of the protocol or method."
+          },
+          {
+            "value": 3,
+            "description": "3: They could reproduce the results with some difficulty. The settings of parameters are underspecified or subjectively determined, and/or the training/evaluation data are not widely available."
+          },
+          {
+            "value": 2,
+            "description": "2: They would be hard pressed to reproduce the results: The contribution depends on data that are simply not available outside the author’s institution or consortium and/or not enough details are provided."
+          },
+          {
+            "value": 1,
+            "description": "1: They would not be able to reproduce the results here no matter how hard they tried."
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "software": {
+    "order": 8,
+    "description": "How valuable will the software and live demo be to others?,",
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 5,
+            "description": "5: Enabling: The newly released software should affect other people’s choice of research or development projects to undertake."
+          },
+          {
+            "value": 4,
+            "description": "4: Useful: I would recommend the new software to other researchers or developers for their ongoing work."
+          },
+          {
+            "value": 3,
+            "description": "3: Potentially useful: Someone might find the new software useful for their work."
+          },
+          {
+            "value": 2,
+            "description": "2: Documentary: The new software will be useful to study or replicate the reported research, although for other purposes it may have limited interest or limited usability. (Still a positive rating)"
+          },
+          {
+            "value": 1,
+            "description": "1: No usable software released."
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "datasets": {
+    "order": 9,
+    "description": "If the authors state (in anonymous fashion) that datasets will be released, how valuable will they be to others?,",
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 5,
+            "description": "5: Enabling: The newly released datasets should affect other people’s choice of research or development projects to undertake."
+          },
+          {
+            "value": 4,
+            "description": "4: Useful: I would recommend the new datasets to other researchers or developers for their ongoing work."
+          },
+          {
+            "value": 3,
+            "description": "3: Potentially useful: Someone might find the new datasets useful for their work."
+          },
+          {
+            "value": 2,
+            "description": "2: Documentary: The new datasets will be useful to study or replicate the reported research, although for other purposes they may have limited interest or limited usability. (Still a positive rating)"
+          },
+          {
+            "value": 1,
+            "description": "1: No usable datasets submitted."
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "overall_assessment": {
+    "order": 10,
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 10,
+            "description": "10: Top 5% of accepted papers, seminal paper"
+          },
+          {
+            "value": 9,
+            "description": "9: Top 15% of accepted papers, strong accept"
+          },
+          {
+            "value": 8,
+            "description": "8: Top 50% of accepted papers, clear accept"
+          },
+          {
+            "value": 7,
+            "description": "7: Good paper, accept"
+          },
+          {
+            "value": 6,
+            "description": "6: Marginally above acceptance threshold"
+          },
+          {
+            "value": 5,
+            "description": "5: Marginally below acceptance threshold"
+          },
+          {
+            "value": 4,
+            "description": "4: Ok but not good enough - rejection"
+          },
+          {
+            "value": 3,
+            "description": "3: Clear rejection"
+          },
+          {
+            "value": 2,
+            "description": "2: Strong rejection"
+          },
+          {
+            "value": 1,
+            "description": "1: Trivial or wrong"
+          }
+        ],
+        "input": "select"
+      }
+    }
+  },
+  "confidence": {
+    "order": 13,
+    "value": {
+      "param": {
+        "type": "integer",
+        "enum": [
+          {
+            "value": 5,
+            "description": "5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature"
+          },
+          {
+            "value": 4,
+            "description": "4: The reviewer is confident but not absolutely certain that the evaluation is correct"
+          },
+          {
+            "value": 3,
+            "description": "3: The reviewer is fairly confident that the evaluation is correct"
+          },
+          {
+            "value": 2,
+            "description": "2: The reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper"
+          },
+          {
+            "value": 1,
+            "description": "1: The reviewer's evaluation is an educated guess"
+          }
+        ],
+        "input": "select"
+      }
+    }
+  }
+}
