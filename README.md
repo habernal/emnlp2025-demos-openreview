@@ -127,6 +127,20 @@ However, after clicking on "Area Chairs Paper Assignment", we got:
 
 That's not a bug! According to the OR guidelines, **paper matching becomes available after the submission deadline**! See https://docs.openreview.net/how-to-guides/paper-matching-and-assignment/how-to-do-automatic-assignments/how-to-setup-paper-matching-by-calculating-affinity-scores-and-conflicts
 
+### Enable Paper Matching (after submission deadline has passed)
+
+* Go to "Full Venue Configuration"
+* Scroll down, "Paper Matching Setup" should appear there
+
+![screenshot](img/screenshot12.jpg)
+
+* Click on "Paper Matching Setup" and fill out the form (I tried the following)
+
+![screenshot](img/screenshot13.jpg)
+
+**You have to wait at least 10 minutes after "Paper Matching Setup"** so that some scores are computed somewhere!!! After that, you will receive the usual e-mail notification (with some further info).
+
+
 ## Playground for testing OR
 
 (Eventually I didn't play around that much for lack of time, but for a bigger conference, I'd do so to get really familiar with the entire workflow well in advance)
