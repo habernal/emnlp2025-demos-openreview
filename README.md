@@ -140,6 +140,65 @@ That's not a bug! According to the OR guidelines, **paper matching becomes avail
 
 **You have to wait at least 10 minutes after "Paper Matching Setup"** so that some scores are computed somewhere!!! After that, you will receive the usual e-mail notification (with some further info).
 
+Now you can click on "Area Chair Paper Assignment". Loading the next page takes a while (like a loong time...)
+
+![screenshot](img/screenshot14.jpg)
+
+This is the starting point
+
+![screenshot](img/screenshot15.jpg)
+
+Let's do "New Assignment Configuration", which opens this horrifying pop-up
+
+![screenshot](img/screenshot16.jpg)
+
+Some fields are clearly explained (but somewhere else, not in this popup, see https://docs.openreview.net/how-to-guides/paper-matching-and-assignment/how-to-do-automatic-assignments/how-to-run-a-paper-matching), but some are hard to decipher
+
+* What is "Alternates"?
+
+So I tried this and left the rest as default (btw: solver: MinMax which is the default fallback)
+
+![screenshot](img/screenshot17.jpg)
+
+which gives us this new configuration listed
+
+![screenshot](img/screenshot18.jpg)
+
+The documentation says 
+
+> You can view, edit or copy the values you filled out in the matching form. When you are happy with your configuration, you should hit 'Run Matcher' and wait until its status is 'Complete'.
+
+I don't know if I'm happy because I have no clue, so let's run "Run Matcher". After some while, the overview shows "No Solution":
+
+![screenshot](img/screenshot19.jpg)
+
+OK, I think I messed up something - obviously we need just one AC per paper, so maybe "User Demand" should be just 1 instead of 3? This did the trick!
+
+![screenshot](img/screenshot20.jpg)
+
+So let's explore "View Statistics"
+
+![screenshot](img/screenshot21.jpg)
+
+Maybe we should look at the details to take care of smaller loads etc.
+
+Here the **manual** re-configuration is necessary - on can click on the bars to select papers or users with a certain number of assignments and then un-assign or assign other persons (this is done through the standard "Edge Browser" in OR, similar to reviewer assignment in area chairing). This takes time and care to cater for ACs max load, etc.
+
+After some manual work, each paper has one AC, all max load requests (btw we didn't put them into OR, I didn't know how to do that easily, so I checked with our list of ACs) and max load of 8 papers.
+
+![screenshot](img/screenshot22.jpg)
+
+It's time to deploy the assignment (https://docs.openreview.net/how-to-guides/paper-matching-and-assignment/how-to-do-automatic-assignments/how-to-deploy-the-proposed-assignments)
+
+> Be careful before deploying proposed assignments!
+
+Yeah, whatever... How can I be careful? So I very carefully clicked on "Deploy Assignment". That should work. It said "Deployment started." and that's it?! After refreshing, there is this new option, though...
+
+![screenshot](img/screenshot23.jpg)
+
+Looks like it worked! Now under "Area Chair Status" we can see the assignments!
+
+![screenshot](img/screenshot24.jpg)
 
 ## Playground for testing OR
 
@@ -148,6 +207,4 @@ That's not a bug! According to the OR guidelines, **paper matching becomes avail
 * Following OR recommendation here: https://docs.openreview.net/how-to-guides/workflow/how-to-test-your-venue-workflow
 * Created a new account on https://dev.openreview.net
 * Created EMNLP25 Demo Test venue and e-mailed OR to deploy, so we can test with multiple other accounts how the submission works, etc.
-
-
 
