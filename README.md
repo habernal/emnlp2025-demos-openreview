@@ -155,6 +155,7 @@ Let's do "New Assignment Configuration", which opens this horrifying pop-up
 Some fields are clearly explained (but somewhere else, not in this popup, see https://docs.openreview.net/how-to-guides/paper-matching-and-assignment/how-to-do-automatic-assignments/how-to-run-a-paper-matching), but some are hard to decipher
 
 * What is "Alternates"?
+* I opened this: https://github.com/openreview/openreview-web/issues/2355
 
 So I tried this and left the rest as default (btw: solver: MinMax which is the default fallback)
 
@@ -199,6 +200,36 @@ Yeah, whatever... How can I be careful? So I very carefully clicked on "Deploy A
 Looks like it worked! Now under "Area Chair Status" we can see the assignments!
 
 ![screenshot](img/screenshot24.jpg)
+
+## Assigning reviewers
+
+I think we need to adjust the "Review Stage" to start on July 14, not on July 7 (because on July 7 we're still in the triage/desk reject mode)
+
+So after adjustment:
+
+```plain
+Timeline:
+Submissions from 17 May 2025, 4:17 pm CEST until 05 Jul 2025, 1:59 pm CEST and expires 05 Jul 2025, 2:29 pm CEST
+Reviewers Recruitment from 17 May 2025, 4:20 pm CEST no deadline and expired
+Reviewing from 14 Jul 2025, 1:59 pm CEST until 23 Aug 2025, 1:59 pm CEST and expires 23 Aug 2025, 2:29 pm CEST
+Commenting from 07 Jul 2025, 11:43 am CEST no deadline and expired
+Meta Reviews from 23 Aug 2025, 3:59 pm CEST until 02 Sept 2025, 1:45 pm CEST and expires 02 Sept 2025, 2:15 pm CEST
+Decisions from 01 Sept 2025, 1:59 pm CEST until 05 Sept 2025, 1:59 pm CEST and expires 15 Sept 2025, 1:59 pm CEST
+Area Chairs Paper Assignment open until Reviewing starts
+Reviewers Paper Assignment open until Reviewing starts
+```
+
+### Configure paper matching for reviewers
+
+I believe this will be the same process as for configuring paper matching for ACs
+
+* Go to "Full Venue Configuration"
+* Scroll down to show the "Paper Matching Setup" button, click
+* Choose "Reviewers" from the list
+
+![screenshot](img/screenshot25.jpg)
+* And **wait at least 10 minutes** before receiving an e-mail confirmation that the matching is ready
+
 
 ## Playground for testing OR
 
