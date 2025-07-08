@@ -85,6 +85,8 @@ For this stage, there is no additional JSON
 
 * AFAIK, there's nothing to be configured as we don't use it
 
+**TODO:** Actually yes, this is quite a nice feature to enable discussions between Program Chairs, ACs and, possible reviewers and authors, too. Need to set-this up properly, might be helpful for reporting triage for desk-rejects.
+
 ### Configuring "Submission Revision Stage" (which corresponds to Camera Ready configuration)
 
 ![screenshot](img/screenshot6.jpg)
