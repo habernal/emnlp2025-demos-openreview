@@ -201,6 +201,10 @@ Looks like it worked! Now under "Area Chair Status" we can see the assignments!
 
 ![screenshot](img/screenshot24.jpg)
 
+## How to do desk rejects
+
+We asked ACs (through mass mail) to check papers and report via e-mail. Actually, they can easily write to each paper an "Official Comment" which will be readable by AC and program chairs only, we get the e-mail notifications, and can decide on the paper later. So it's much better than e-mails.
+
 ## Assigning reviewers
 
 I think we need to adjust the "Review Stage" to start on July 14, not on July 7 (because on July 7 we're still in the triage/desk reject mode)
