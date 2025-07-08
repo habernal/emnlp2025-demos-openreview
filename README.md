@@ -230,6 +230,22 @@ I believe this will be the same process as for configuring paper matching for AC
 ![screenshot](img/screenshot25.jpg)
 * And **wait at least 10 minutes** before receiving an e-mail confirmation that the matching is ready
 
+And here's the result:
+
+> Comment:
+8 Reviewers without a profile.
+> 
+> Affinity scores and/or conflicts could not be computed for the users listed under 'Without Profile'. You will not be able to run the matcher until all Reviewers have profiles. You have two options:
+> 
+> You can ask these users to sign up in OpenReview and upload their papers. After all Reviewers have done this, you will need to rerun the paper matching setup to recompute conflicts and/or affinity scores for all users.
+You can remove these users from the Reviewers group: https://openreview.net/group/edit?id=EMNLP/2025/System_Demonstrations/Reviewers. You can find all users without a profile by searching for the '@' character in the search box.
+> 
+> 15 Reviewers listed under 'Without Publication' don't have any publications.
+
+So we need to write everyone to fill-out their profile....
+
+* So I messaged them individually (annoying, there's no easy mass-mailer?) to ask them to sign up to OR
+* I mass-mailed all reviewers to update their publications
 
 ## Playground for testing OR
 
