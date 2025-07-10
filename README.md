@@ -253,6 +253,11 @@ So we need to write everyone to fill-out their profile....
 * So I messaged them individually (annoying, there's no easy mass-mailer?) to ask them to sign up to OR
 * I mass-mailed all reviewers to update their publications
 
+* ... after two days or so, I'm going to re-run it again (basically, repeat the last step to configure a new Paper Matching Setup, wait for 10 mins etc.)
+
+Without Profile: 6 reviewers, I e-mailed them
+
+
 ## Playground for testing OR
 
 (Eventually I didn't play around that much for lack of time, but for a bigger conference, I'd do so to get really familiar with the entire workflow well in advance)
