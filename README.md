@@ -61,6 +61,9 @@ Similarly to the main "Revision" setup, we adjusted the "Review Stage" following
 
 * for the field `Additional Review Form Options`, copy & paste the content of `additional-config-json-files/review-stage-additional-review-form-options.json`
 * Note that EMNLP 2025 Demo track does not feature Best papers
+* **Attention** The above configuration **is wrong** as it will make the reviews available directly after submitting, so long before the decision stage. I do not recommend this as we started receiving complaints about the reviews during the review stage already, plus it also confused many authors. So fix this by changing to "No, reviews should NOT be revealed when they are posted to the paper's authors"
+
+![screenshot](img/screenshot26.jpg)
 
 ### Configuring "Meta Review Stage"
 
