@@ -61,9 +61,18 @@ Similarly to the main "Revision" setup, we adjusted the "Review Stage" following
 
 * for the field `Additional Review Form Options`, copy & paste the content of `additional-config-json-files/review-stage-additional-review-form-options.json`
 * Note that EMNLP 2025 Demo track does not feature Best papers
+
+#### Issue 1
+
 * **Attention** The above configuration **is wrong** as it will make the reviews available directly after submitting, so long before the decision stage. I do not recommend this as we started receiving complaints about the reviews during the review stage already, plus it also confused many authors. So fix this by changing to "No, reviews should NOT be revealed when they are posted to the paper's authors"
 
 ![screenshot](img/screenshot26.jpg)
+
+#### Issue 2
+
+* **Attention** We also mis-configured the "Review Expiration Date", which is the **hard deadline** for submitting. When left blank, reviews cannot be submitted right after "Review Deadline". So we had to re-adjust it to
+
+![screenshot](img/screenshot27.jpg)
 
 ### Configuring "Meta Review Stage"
 
@@ -73,6 +82,12 @@ Similarly to the main "Revision" setup, we adjusted the "Review Stage" following
 
 * JSON configuration for the `Additional Meta Review Form Options` field available in
 `additional-config-json-files/meta-review-stage-additional-meta-review-form-options.json`
+
+#### Issues
+
+Seems like we need to re-adjust "Release Meta Reviews To Authors" and "Meta Review Expiration Date", as this will lead to similar problems as in the "Review Phase" above. So we set this up as follows:
+
+![screenshot](img/screenshot28.jpg)
 
 ### Configuring "Decision Stage"
 
