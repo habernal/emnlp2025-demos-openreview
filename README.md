@@ -89,6 +89,34 @@ Seems like we need to re-adjust "Release Meta Reviews To Authors" and "Meta Revi
 
 ![screenshot](img/screenshot28.jpg)
 
+#### Issues with values regarding recommendation (accept, reject, etc.)
+
+The meta-review form is tricky: There is a default "recommendation" field which contains
+
+```plaintext
+ "recommendation": {
+    "value": {
+      "param": {
+        "type": "string",
+        "enum": [
+          "Accept (Oral)",
+          "Accept (Poster)",
+          "Reject"
+        ],
+        "input": "radio"
+      }
+    },
+```
+
+See https://docs.openreview.net/reference/default-forms/default-meta-review-form
+
+But demos have no Oral/Poster; and we actually wanted three categories - clear accept, maybe accept, reject
+
+![screenshot](img/screenshot29.jpg)
+
+So we will first try to change the "Recommendation Field Name" to "overall_assessment".
+
+
 ### Configuring "Decision Stage"
 
 For this stage, there is no additional JSON
