@@ -114,8 +114,15 @@ But demos have no Oral/Poster; and we actually wanted three categories - clear a
 
 ![screenshot](img/screenshot29.jpg)
 
-So we will first try to change the "Recommendation Field Name" to "overall_assessment".
+So we will first try to change the "Recommendation Field Name" to "overall_assessment". This worked! So now we can see the overall assessment value (1, 2, 3) in the submission overview:
 
+![screenshot](img/screenshot30.jpg)
+
+Let's try now to remove the default `recommendation` field from the meta review form:
+
+![screenshot](img/screenshot31.jpg)
+
+This **does not change existing meta-reviews** but should at least disable this field for any new meta-reviews. Another unexpected hassle in configuring OR.
 
 ### Configuring "Decision Stage"
 
