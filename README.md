@@ -134,6 +134,34 @@ For this stage, there is no additional JSON
   * There is no field to configure `Notify Authors: No, I will send the emails to the authors` (this was shown in the EMNLP 24 configuration, but not available in the Decision Stage form)
   * However, it appears in the full configuration automatically after submitting changes to "Decision Stage" form
 
+#### Issues
+
+Again, we mis-configured whether the decisions should be released immediately - so we need to disable it. Here's the updated configuration:
+
+![screenshot](img/screenshot32.jpg)
+
+### How to enter decisions without clicking through 220 papers manually
+
+In the "Decision Stage" configuration, there's an input file filed for a CSV file, and OR says:
+
+> Upload a CSV file containing decisions for papers (one decision per line in the format: paper_number, decision, comment). Please do not add the column names as the first row
+
+So let's test this out on a paper that will be definitely rejected.
+
+* Creating a CSV file with a single line:
+
+```plaintext
+48, Reject, "Reject based on reviews and meta-reviews"
+```
+
+* Saved to some local tmp file
+* Try to upload
+* Wow, it worked!
+
+![screenshot](img/screenshot33.jpg)
+
+* OK, so the CSV file is not really parsed well, as the quotes remain, but hey, at least something!
+
 ### Skipping "Comment Stage"
 
 * AFAIK, there's nothing to be configured as we don't use it
