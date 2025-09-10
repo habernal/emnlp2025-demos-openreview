@@ -442,7 +442,7 @@ EMNLP 2025 System demonstrations Program Chairs
 
 see above; this has been configured correctly, AFAIK
 
-### OK, let's run the show - release decisions to authors
+### OK, let's release decisions to authors for real
 
 1) Update Review Stage: Release Reviews To Authors -> Yes, reviews should be revealed when they are posted to the paper's authors
 2) Update Meta Review Stage: Release Meta Reviews To Authors -> Yes, meta reviews should be revealed when they are posted to the paper's authors
@@ -454,6 +454,12 @@ see above; this has been configured correctly, AFAIK
 ![screenshot](img/screenshot37.jpg)
 
 Submitted and hoping we didn't screw it up...
+
+In the Venue Configuration list, there's two new events logged - it seems that the notification e-mails were sent successfully
+
+![screenshot](img/screenshot38.jpg)
+
+
 
 ## Playground for testing OR
 
