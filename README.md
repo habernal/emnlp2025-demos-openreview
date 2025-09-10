@@ -442,6 +442,19 @@ EMNLP 2025 System demonstrations Program Chairs
 
 see above; this has been configured correctly, AFAIK
 
+### OK, let's run the show - release decisions to authors
+
+1) Update Review Stage: Release Reviews To Authors -> Yes, reviews should be revealed when they are posted to the paper's authors
+2) Update Meta Review Stage: Release Meta Reviews To Authors -> Yes, meta reviews should be revealed when they are posted to the paper's authors
+3) Update Decision Stage: Release Decisions To Authors -> Yes, decisions should be revealed when they are posted to the paper's authors
+4) Release Decisions To Reviewers -> Yes, decisions should be immediately revealed to the paper's reviewers
+5) Release Decisions To Area Chairs -> Yes, decisions should be immediately revealed to the paper's area chairs
+6) Update Post Decision Stage as prepared above
+
+![screenshot](img/screenshot37.jpg)
+
+Submitted and hoping we didn't screw it up...
+
 ## Playground for testing OR
 
 (Eventually I didn't play around that much for lack of time, but for a bigger conference, I'd do so to get really familiar with the entire workflow well in advance)
