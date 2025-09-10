@@ -338,6 +338,97 @@ So we need to write everyone to fill-out their profile....
 
 Without Profile: 6 reviewers, I e-mailed them
 
+## How to notify authors about the decisions
+
+Here's the issue I had initially (e-mailed to OR):
+
+> We've just uploaded decisions for all 212 papers for EMNLP 2025 demos, but now I got stuck with how to notify authors and let them see the reviews.
+>
+> The documentation mentions "Post Decision stage" ( https://docs.openreview.net/workflows/conferences ) but I can't see anything like that in our setup.
+> 
+> I want to prevent the situation where we make decisions available without e-mailing the authors, or e-mailing the authors without having the reviews accessible.
+
+Their answer:
+
+> The Post Decision button is available once the Decision deadline has passed. If you're finished posting decisions, you can change the deadline to a passed date and then you'll be able to access the Post Decision.
+>
+> If you want to change the readers of the Decisions, you can do so with the Decision Stage changing Release Decisions To Authors to include the authors as readers.
+> 
+> The emails are sent by the Post Decision.
+
+So step 1 - change decisions to the past: "Venue Configuration Request" -> "Decision Stage" button -> Change to the past date (two days back), otherwise I didn't change anything
+
+![screenshot](img/screenshot34.jpg)
+
+It did the trick!
+
+![screenshot](img/screenshot35.jpg)
+
+### Configuring "Post Decision Stage"
+
+Here's the default configuration for reference, but we will adjust it
+
+![screenshot](img/screenshot36.jpg)
+
+So here's the first catch: We don't know if reviews and meta-reviews will be made available to the authors, as there is no such settings here for the "Post Decision" stage.
+
+However, in the EMNLP 2024 configuration export, I found:
+
+> Release Reviews To Authors: Yes, reviews should be revealed when they are posted to the paper's authors
+>
+> Release Decisions To Authors: Yes, decisions should be revealed when they are posted to the paper's authors
+> 
+> Release Decisions To Reviewers: Yes, decisions should be immediately revealed to the paper's reviewers
+> 
+> Release Decisions To Area Chairs: Yes, decisions should be immediately revealed to the paper's area chairs
+>
+> Release Meta Reviews To Authors: Yes, meta reviews should be revealed when they are posted to the paper's authors
+> 
+> Release Meta Reviews To Reviewers: Meta reviews should be immediately revealed to the paper's reviewers who have already submitted their review
+
+but we have these disabled. So I think we need to first change these in "Review Stage", "Meta-Review Stage" and "Decision Stage", and only then set up the "Post Decision Stage" and send out the notifications. Oh boy, why is this so complicated.
+
+### Prepare adjustments to the "Post Decision Stage"
+
+Get ready for sending out the decisions. Because if we change the above (release reviews, meta-reviews, and decisions to the authors), we should immediately notify them - otherwise the "reviews will be leaking in OR" before notifying the authors.
+
+Adjusted **Accept Email Content**
+
+---
+Dear {{fullname}},
+
+Thank you for submitting your paper, {{submission_title}}, to EMNLP 2025 System demonstrations. We are delighted to inform you that your submission has been accepted. Congratulations!
+
+You can find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
+
+Camera ready heads up:
+
+* Deadline is September 19th 23:59 AoE (strict, no extensions)
+* Papers must pass the ACL pub check without any errors: https://github.com/acl-org/aclpubcheck
+* Otherwise, the papers will not be included in the proceedings
+* We will send a separate e-mail shortly
+
+Best regards,
+
+Ivan Habernal, Peter Schulam, Joerg Tiedemann
+EMNLP 2025 System demonstrations Program Chairs
+
+---
+
+**Reject Email Content**
+Dear {{fullname}},
+                    
+Thank you for submitting your paper, {{submission_title}}, to EMNLP 2025 System demonstrations. We regret to inform you that your submission was not accepted.
+
+You can find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
+
+Best regards,
+
+Ivan Habernal, Peter Schulam, Joerg Tiedemann
+EMNLP 2025 System demonstrations Program Chairs
+
+---
+
 
 ## Playground for testing OR
 
