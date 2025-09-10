@@ -175,6 +175,8 @@ So let's test this out on a paper that will be definitely rejected.
 * We disabled changing (adding, removing) authors
 * Nothing needed for `Submission Revision Additional Options`, AFAIK
 
+* Double-checked this before sending out the decisions, should be ready! for camera ready
+
 ### Configuring "Post Submission" stage
 
 Here I have no idea, when this stage is activated, so I left the default option
@@ -436,6 +438,9 @@ EMNLP 2025 System demonstrations Program Chairs
 
 ---
 
+### Double check "Submission Revision Stage" (which corresponds to Camera Ready configuration)
+
+see above; this has been configured correctly, AFAIK
 
 ## Playground for testing OR
 
