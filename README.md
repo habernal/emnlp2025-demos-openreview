@@ -401,12 +401,17 @@ Thank you for submitting your paper, {{submission_title}}, to EMNLP 2025 System 
 
 You can find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
 
-Camera ready heads up:
+Camera ready instructions TLDR;
 
 * Deadline is September 19th 23:59 AoE (strict, no extensions)
-* Papers must pass the ACL pub check without any errors: https://github.com/acl-org/aclpubcheck
-* Otherwise, the papers will not be included in the proceedings
-* We will send a separate e-mail shortly
+* Papers must pass the ACL pub check without errors: https://github.com/acl-org/aclpubcheck
+* 7 pages content max
+
+Please prepare the camera ready following the ACL main conference. To upload a camera-ready version of your paper, simply go to your paper forum and click on the Edit button. The submissions instructions are the same as EMNLP main conference, with only difference in the page limits: final version of demo paper will be given one additional page of content (up to 7 pages) so that reviewers' comments can be taken into account. We do not have any length constraints for the Appendix in the final version.
+
+The final version should follow the EMNLP 2025 two-column format, using the supplied official style files. The templates can be downloaded in Style Files and Formatting. Please do not modify these style files, nor should you use templates designed for other conferences. Submissions that do not conform to the required styles, including paper size, margin width, and font size restrictions, will be rejected from the proceedings.
+
+[Verification] To guarantee conformance to publication standards, we will be using the ACL Pubcheck tool (https://github.com/acl-org/aclpubcheck). The PDFs of camera-ready papers must be run through this tool prior to their final submission. Please reach out to us if you have any questions.
 
 Best regards,
 
@@ -421,6 +426,8 @@ Dear {{fullname}},
 Thank you for submitting your paper, {{submission_title}}, to EMNLP 2025 System demonstrations. We regret to inform you that your submission was not accepted.
 
 You can find the final reviews for your paper on the submission page in OpenReview at: {{forum_url}}
+
+Thank you for your contribution to the field, and we hope you'll consider submitting your work to future EMNLP conferences.
 
 Best regards,
 
