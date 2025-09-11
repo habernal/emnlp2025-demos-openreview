@@ -1,5 +1,9 @@
 # OpenReview (OR) configuration for EMNLP 2025 demo papers
 
+## Blog / FAQs
+
+See [FAQs and a short blog post](blog-and-faqs/2025-09-11-blogpost-and-faqs.md)
+
 ## Applying for OR venue
 
 First, one has to apply for a new venue and fill out the form. I just filled the application form as good as I could, most of the configuration will be changed later anyway. Do this very soon. 
@@ -176,6 +180,12 @@ So let's test this out on a paper that will be definitely rejected.
 * Nothing needed for `Submission Revision Additional Options`, AFAIK
 
 * Double-checked this before sending out the decisions, should be ready! for camera ready
+
+#### Issues: Changing authors should be actually possible
+
+Originally we disabled changing the authors, but in fact it is the sole responsibility to adhere to the authorship code of conduct:
+https://www.aclweb.org/adminwiki/index.php/Authorship_Changes_Policy_for_ACL_Conference_Papers So we enabled changing the authors before the camera-ready deadline.
+
 
 ### Configuring "Post Submission" stage
 
