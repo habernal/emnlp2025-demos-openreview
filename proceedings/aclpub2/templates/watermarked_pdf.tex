@@ -1,0 +1,51 @@
+\documentclass[11pt,oneside]{book}
+\usepackage{fancyhdr}
+\usepackage[a4paper,top=2cm,bottom=3cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage{times}
+\usepackage{pax}
+\usepackage{hyperref}
+\usepackage{lscape}
+
+\hypersetup{
+    colorlinks,
+    linktoc=all,
+    linkcolor=red,
+}
+\setlength{\paperwidth}{21cm}   % A4
+\setlength{\paperheight}{29.7cm}% A4
+\special{papersize=21cm, 29.7cm}
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+\setlength\topmargin{-5mm} \setlength\oddsidemargin{-0cm}
+\setlength\textheight{24.7cm} \setlength\textwidth{16cm}
+\setlength\columnsep{0.6cm}  \newlength\titlebox \setlength\titlebox{2.00in}
+\setlength\headheight{5pt}   \setlength\headsep{0pt}
+\setlength\footskip{1.0cm}
+\setlength\parindent{0pt}
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+\setcounter{page}{\VAR{paper.start_page}}
+
+\begin{document}
+\renewcommand{\headrulewidth}{0pt}
+\AddToShipoutPicture*{
+  \setlength{\unitlength}{1mm}
+  \footnotesize
+
+  \BLOCK{if conference.watermark_book_title}
+  \BLOCK{set title=conference.watermark_book_title}
+  \BLOCK{else}
+  \BLOCK{set title=conference.book_title}
+  \BLOCK{endif}
+
+  \put(0,13){\parbox[t]{\paperwidth}{\centering
+  							\emph{\VAR{title}}, pages \VAR{paper.start_page}--\VAR{paper.end_page} \\
+	  						\VAR{conference_dates}, \VAR{conference.start_date.year} \textcopyright
+							\VAR{conference.start_date.year} Association for Computational Linguistics}}
+
+}
+\includepdf[pagecommand={\thispagestyle{plain}},pages=-]{\VAR{root}/papers/\VAR{paper.file}}
+\end{document}
