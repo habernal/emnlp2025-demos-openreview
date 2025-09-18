@@ -53,18 +53,27 @@ TBD
 
 ## ACL pub check
 
-Optional; Update aclpubcheck
-
+Install pub-check
+```plaintext
+cd ~/PycharmProjects
+git clone https://github.com/acl-org/aclpubcheck.git
+virtualenv venv
+```
+or update
 ```plain
 cd ~/PycharmProjects/aclpubcheck
 git pull
+```
+```plaintext
 source venv/bin/activate
-pip install
+pip install .
 ```
 
-Run the check on all papers
+Now here's a one-liner that checks all PDFs and outputs a CSV with `id,number_of_errors_detected`. If the paper is OK, the number of errors is zero. It takes a while to finish for 77 papers.
 
-(venv) ~/PycharmProjects/aclpubcheck$ for i in ~/PycharmProjects/privatenlp25-proceedings/examples/privatenlp25ws/papers/*.pdf ; do echo ${i}; ./venv/bin/aclpubcheck --paper_type long ${i} ; done > errors.log.txt
+```plaintext
+echo "filename,errors" > results.csv; for i in $(ls ~/PycharmProjects/emnlp2025-demos-openreview/proceedings/papers/*.pdf | sort); do out=$(./venv/bin/aclpubcheck --paper_type long "$i" 2>&1); fname=$(basename "$i" .pdf); if [[ $out == *"All Clear!"* ]]; then echo "$fname,0"; elif [[ $out =~ We\ detected\ ([0-9]+)\ errors ]]; then echo "$fname,${BASH_REMATCH[1]}"; else echo "$fname,\"$(echo "$out" | tr '\n' ' ' | sed 's/"/""/g')\""; fi; done >> results.csv
+```
 
 
 
