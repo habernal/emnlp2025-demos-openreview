@@ -469,7 +469,9 @@ In the Venue Configuration list, there's two new events logged - it seems that t
 
 ![screenshot](img/screenshot38.jpg)
 
+## Compiling the demo proceedings for the ACL Anthology
 
+See [proceedings/README.md](proceedings/README.md)
 
 ## Playground for testing OR
 
