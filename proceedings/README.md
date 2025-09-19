@@ -72,20 +72,41 @@ pip install .
 Now here's a one-liner that checks all PDFs and outputs a CSV with `id,number_of_errors_detected`. If the paper is OK, the number of errors is zero. It takes a while to finish for 77 papers.
 
 ```plaintext
-echo "filename,errors" > results.csv; for i in $(ls ~/PycharmProjects/emnlp2025-demos-openreview/proceedings/papers/*.pdf | sort); do out=$(./venv/bin/aclpubcheck --paper_type long "$i" 2>&1); fname=$(basename "$i" .pdf); if [[ $out == *"All Clear!"* ]]; then echo "$fname,0"; elif [[ $out =~ We\ detected\ ([0-9]+)\ errors ]]; then echo "$fname,${BASH_REMATCH[1]}"; else echo "$fname,\"$(echo "$out" | tr '\n' ' ' | sed 's/"/""/g')\""; fi; done >> results.csv
+echo "id,errors" > results.csv; for i in $(ls ~/PycharmProjects/emnlp2025-demos-openreview/proceedings/papers/*.pdf | sort); do out=$(./venv/bin/aclpubcheck --paper_type long "$i" 2>&1); fname=$(basename "$i" .pdf); if [[ $out == *"All Clear!"* ]]; then echo "$fname,0"; elif [[ $out =~ We\ detected\ ([0-9]+)\ errors ]]; then echo "$fname,${BASH_REMATCH[1]}"; elif [[ $out =~ Error ]]; then echo "$fname,1"; else echo "$fname,\"$(echo "$out" | tr '\n' ' ' | sed 's/"/""/g')\""; fi; done >> results.csv
+```
+
+Double-check the number of papers, must be 77
+
+```plaintext
+$ wc -l < results.csv | awk '{print $1 - 1}'
+```
+
+How many papers have still errors?
+
+```plaintext
+awk -F, 'NR>1 && $2 != 0 {count++} END {print count}' results.csv 
+```
+
+Print IDs of papers with errors (sorted by ID)
+
+```plaintext
+awk -F, 'NR>1 && $2 != 0 {print $1}' results.csv | sort -n
 ```
 
 
 
 
-
-
-
-
-
-
-
 ## Old notes, maybe useful later
+
+
+Many papers were submitted with page numbers...
+
+They need just to change a single line to:
+
+```plaintext
+\usepackage[final]{acl}
+```
+
 
 PrivateNLP workshop: ACLPubCheck errors in the camera ready PDF
 
