@@ -96,7 +96,15 @@ awk -F, 'NR>1 && $2 != 0 {print $1}' results.csv | sort -n
 
 
 
-## Old notes, maybe useful later
+## Pinging authors
+
+35:
+
+page 13 bleeds into the left margin. We detected 109 errors and 0 warnings in your paper. In general, it is required that you fix errors for your paper to be published. Fixing warnings is optional, but recommended. Important: Some of the margin errors may be spurious. The library detects the location of images, but not whether they have a white background that blends in. Important: Some of the warnings generated for citations may be spurious and inaccurate, due to parsing and indexing errors. We encourage you to double check the citations and update them depending on the latest source. If you believe that your citation is updated and correct, then please ignore those warnings.
+
+emailed
+
+54 - this is word, looks good
 
 
 Many papers were submitted with page numbers...
