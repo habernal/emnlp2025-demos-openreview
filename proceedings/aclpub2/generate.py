@@ -45,6 +45,10 @@ def generate_proceedings(path: str, overwrite: bool, outdir: str, nopax: bool, f
         program,
     ) = load_configs(root)
 
+    # randomly shuffle papers, so they are not sorted by their submission ID (that is the time) per default
+    import random
+    random.Random(42).shuffle(papers)
+
     sessions_by_date = None
     if program is not None:
         try:

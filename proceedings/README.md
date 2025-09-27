@@ -41,15 +41,19 @@ downloads `program_committee.yml` which should be copied and edited to the demo 
 * Copy into it the `papers` folder with all 77 PDFs from the previous step
 * Copy the `papers.yml` + `program_committee.yml` files too
 
-## Generate the proceedings TODO continue
+## Generate the proceedings
 
-$ rm -rf ./build/ ; rm -rf ./output/; export PYTHONPATH=.; python bin/generate examples/privatenlp25ws --proceedings --overwrite
+```plaintext
+$ rm -rf ./build/ ; rm -rf ./output/; export PYTHONPATH=.; python bin/generate examples/emnlp25demos --proceedings --overwrite
+```
 
-It generates the full proceedings PDF in `output`
+It generates the full proceedings PDF in `output` (takes a while for 77 papers...)
 
 ## Fixing individual papers, round 1
 
-TBD
+all done by e-mailing them; I always uploaded the final camera ready version to OR so there is only one source of truth
+
+139 should be compressed - 10 MB :/
 
 ## ACL pub check
 

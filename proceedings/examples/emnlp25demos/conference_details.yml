@@ -1,22 +1,18 @@
 book_title: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
-event_name: The Sixth Workshop on Privacy in Natural Language Processing
+event_name: The 2025 Conference on Empirical Methods in Natural Language Processing
 volume_name: main
-cover_subtitle: Proceedings of the Workshop
-anthology_venue_id: PrivateNLP
-start_date: 2025-04-04
-end_date: 2025-04-04
+cover_subtitle: Proceedings of the System Demonstrations
+anthology_venue_id: "EMNLP"
+start_date: 2025-11-05
+end_date: 2025-11-07
 isbn: 979-8-89176-246-6
-location: Albuquerque, New Mexico
+location: Suzhou, China
 editors:
   - first_name: Ivan
     last_name: Habernal
-  - first_name: Sepideh
-    last_name: Ghanavati
-  - first_name: Vijayanta
-    last_name: Jain
-  - first_name: Timour
-    last_name: Igamberdiev
-  - first_name: Shomir
-    last_name: Wilson
+  - first_name: Peter
+    last_name: Schulam
+  - first_name: Jörg
+    last_name: Tiedemann
 publisher: Association for Computational Linguistics
 #watermark_book_title: Proceedings of the 21th Annual Meeting of the\\ Special Interest Group on Discourse and Dialogue
