@@ -2735,10 +2735,10 @@
     orcid: https://orcid.org/0000-0002-3677-672X
     username: ~Alejandro_Catala1
   - emails: luis.correia@mindshaker.com
-    first_name: luis.correia@mindshaker.com
-    institution: NA
-    last_name: luis.correia@mindshaker.com
-    name: luis.correia@mindshaker.com
+    first_name: Luís
+    institution: MindShaker
+    last_name: Correia
+    name: Luís Correia
     username: luis.correia@mindshaker.com
   - dblp_id: https://dblp.org/pid/70/4215
     emails: '****@uclouvain.be'
@@ -2769,22 +2769,22 @@
     name: Mario Izquierdo-Álvarez
     username: ~Mario_Izquierdo-Álvarez1
   - emails: nuno.mamede@tecnico.ulisboa.pt
-    first_name: nuno.mamede@tecnico.ulisboa.pt
-    institution: NA
-    last_name: nuno.mamede@tecnico.ulisboa.pt
-    name: nuno.mamede@tecnico.ulisboa.pt
+    first_name: Nuno
+    institution: INESC-ID Lisboa
+    last_name: Mamede
+    name: Nuno Mamede
     username: nuno.mamede@tecnico.ulisboa.pt
   - emails: vasco.martins@mindshaker.com
-    first_name: vasco.martins@mindshaker.com
-    institution: NA
-    last_name: vasco.martins@mindshaker.com
-    name: vasco.martins@mindshaker.com
+    first_name: Vasco
+    institution: MindShaker
+    last_name: Martins
+    name: Vasco Martins
     username: vasco.martins@mindshaker.com
   - emails: miguel.neves@mindshaker.com
-    first_name: miguel.neves@mindshaker.com
-    institution: NA
-    last_name: miguel.neves@mindshaker.com
-    name: miguel.neves@mindshaker.com
+    first_name: Miguel
+    institution: MindShaker
+    last_name: Neves
+    name: Miguel Neves
     username: miguel.neves@mindshaker.com
   - dblp_id: https://dblp.org/pid/164/5884
     emails: '****@inesc-id.pt'
@@ -3015,10 +3015,10 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Gil-Pasternak/2333233070
     username: ~Gil_Pasternak1
   - emails: o8@fastino.ai
-    first_name: o8@fastino.ai
-    institution: NA
-    last_name: o8@fastino.ai
-    name: o8@fastino.ai
+    first_name: Oliver
+    institution: Fastino AI
+    last_name: Boyd
+    name: Oliver Boyd
     username: o8@fastino.ai
   - emails: '****@gmail.com'
     first_name: George
