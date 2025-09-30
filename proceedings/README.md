@@ -68,26 +68,7 @@ all done by e-mailing them; I always uploaded the final camera ready version to 
 
 ## Fixing authors info missing in OR
 
-
-Error at wtwong@cuhk.edu.hk from (#129; openreview ID: tW1uAWJvBz) ROBOTO2: An Interactive System and Dataset for LLM-assisted Clinical Trial Risk of Bias Assessment
-
-
-Error at wangguangfu@gwm.cn from (#203; openreview ID: q6H1lIkFpx) OpenS2S: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model
-Error at jialanpeng@gwm.cn from (#203; openreview ID: q6H1lIkFpx) OpenS2S: Advancing Fully Open-Source End-to-End Empathetic Large Speech Language Model
-Error at snahal@salesforce.com from (#11; openreview ID: fQ8KFnkoSN) SlackAgents: Scalable Collaboration of AI Agents in Workspaces
-Error at joshua.salisbury@fullfact.org from (#86; openreview ID: XWbqBvABD6) PledgeTracker: A System for Monitoring the Fulfilment of Pledges
-Error at luis.correia@mindshaker.com from (#102; openreview ID: UXPjidF7gu) The iRead4Skills Intelligent Complexity Analyzer
-Error at nuno.mamede@tecnico.ulisboa.pt from (#102; openreview ID: UXPjidF7gu) The iRead4Skills Intelligent Complexity Analyzer
-Error at vasco.martins@mindshaker.com from (#102; openreview ID: UXPjidF7gu) The iRead4Skills Intelligent Complexity Analyzer
-Error at miguel.neves@mindshaker.com from (#102; openreview ID: UXPjidF7gu) The iRead4Skills Intelligent Complexity Analyzer
-Error at jiexie@tsinghua.edu.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at weizhou@tsinghua.edu.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at 664933117@qq.com from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at suzhou@modelbest.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at liuxiaoming@modelbest.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at xujianming@modelbest.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at tianhongyan@modelbest.cn from (#155; openreview ID: FqxZI3jTtE) AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning
-Error at o8@fastino.ai from (#114; openreview ID: 18uki99bvP) GLiNER2: Schema-Driven Multi-Task Learning for Structured Information Extraction
+Needs to be fixed manually in papers.yml -- look at the paper PDF, find the author who might have the given e-mail, and fix first name, last name, name, and institution
 
 
 
