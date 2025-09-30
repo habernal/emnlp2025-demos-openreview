@@ -319,10 +319,10 @@
     name: Frank Wang
     username: ~Frank_Wang4
   - emails: snahal@salesforce.com
-    first_name: snahal@salesforce.com
-    institution: NA
-    last_name: snahal@salesforce.com
-    name: snahal@salesforce.com
+    first_name: Sukhandeep
+    institution: SalesForce AI Research
+    last_name: Nahal
+    name: Sukhandeep Nahal
     username: snahal@salesforce.com
   - dblp_id: https://dblp.org/pid/70/6155-16.html
     emails: '****@gmail.com'
@@ -2061,10 +2061,10 @@
     name: Nasim Asl
     username: ~Nasim_Asl1
   - emails: joshua.salisbury@fullfact.org
-    first_name: joshua.salisbury@fullfact.org
-    institution: NA
-    last_name: joshua.salisbury@fullfact.org
-    name: joshua.salisbury@fullfact.org
+    first_name: Joshua
+    institution: Full Fact
+    last_name: Salisbury
+    name: Joshua Salisbury
     username: joshua.salisbury@fullfact.org
   - emails: '****@fullfact.org'
     first_name: Andrew
@@ -3568,10 +3568,10 @@
     orcid: https://orcid.org/0009-0008-2716-6736
     username: ~Nguyen_Thanh_Tam2
   - emails: wtwong@cuhk.edu.hk
-    first_name: wtwong@cuhk.edu.hk
-    institution: NA
-    last_name: wtwong@cuhk.edu.hk
-    name: wtwong@cuhk.edu.hk
+    first_name: Wai-Tat
+    institution: The Chinese University of Hong Kong
+    last_name: Wong
+    name: Wai-Tat Wong
     username: wtwong@cuhk.edu.hk
   - emails: '****@usask.ca'
     first_name: Terry
@@ -5548,10 +5548,10 @@
     name: YiNan Bai
     username: ~YiNan_Bai1
   - emails: wangguangfu@gwm.cn
-    first_name: wangguangfu@gwm.cn
-    institution: NA
-    last_name: wangguangfu@gwm.cn
-    name: wangguangfu@gwm.cn
+    first_name: Guangfu
+    institution: GWM AI Lab
+    last_name: Wang
+    name: Guangfu Wang
     username: wangguangfu@gwm.cn
   - emails: '****@gwm.cn'
     first_name: Jun
@@ -5560,10 +5560,10 @@
     name: Jun Lin
     username: ~Jun_Lin6
   - emails: jialanpeng@gwm.cn
-    first_name: jialanpeng@gwm.cn
-    institution: NA
-    last_name: jialanpeng@gwm.cn
-    name: jialanpeng@gwm.cn
+    first_name: Lanpeng
+    institution: GWM AI Lab
+    last_name: Jia
+    name: Lanpeng Jia
     username: jialanpeng@gwm.cn
   - dblp_id: https://dblp.org/pid/116/3149.html
     emails: '****@nlpr.ia.ac.cn'
