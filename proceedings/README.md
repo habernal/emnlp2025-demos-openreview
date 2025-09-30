@@ -50,6 +50,7 @@ cd papers
 for i in *.pdf ; do fname=$(basename "$i" .pdf); gs -sDEVICE=pdfwrite -dCombapibilityLevel=1.4 -dPDFSETTINGS=/printer -dColorImageResolution=300 -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${fname}_comp.pdf" "${i}"; rm "${i}"; mv "${fname}_comp.pdf" "${i}"; done
 ```
 
+Final size 81 MB instead of 205 MB orig
 
 
 ## Generate the proceedings
