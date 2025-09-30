@@ -12,7 +12,7 @@
 .vscode
 venv
 
-program_committee.yml
+/program_committee.yml
 papers.log
-papers.yml
+/papers.yml
 papers/
