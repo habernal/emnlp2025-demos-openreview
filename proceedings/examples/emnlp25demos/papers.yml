@@ -4476,16 +4476,16 @@
     semantic_scholar_id: https://www.semanticscholar.org/author/Yankai-Lin/2427350
     username: ~Yankai_Lin1
   - emails: jiexie@tsinghua.edu.cn
-    first_name: jiexie@tsinghua.edu.cn
-    institution: NA
-    last_name: jiexie@tsinghua.edu.cn
-    name: jiexie@tsinghua.edu.cn
+    first_name: Xie
+    institution: Tsinghua University
+    last_name: Xie
+    name: Jie Xie
     username: jiexie@tsinghua.edu.cn
   - emails: weizhou@tsinghua.edu.cn
-    first_name: weizhou@tsinghua.edu.cn
-    institution: NA
-    last_name: weizhou@tsinghua.edu.cn
-    name: weizhou@tsinghua.edu.cn
+    first_name: Wei
+    institution: Tsinghua University
+    last_name: Zhou
+    name: Wei Zhou
     username: weizhou@tsinghua.edu.cn
   - emails: '****@gmail.com'
     first_name: Wang
@@ -4496,17 +4496,11 @@
     orcid: https://orcid.org/0000-0002-7971-3956
     semantic_scholar_id: https://www.semanticscholar.org/author/Wang-Xu/2110725401
     username: ~Wang_Xu2
-  - emails: 664933117@qq.com
-    first_name: 664933117@qq.com
-    institution: NA
-    last_name: 664933117@qq.com
-    name: 664933117@qq.com
-    username: 664933117@qq.com
   - emails: suzhou@modelbest.cn
-    first_name: suzhou@modelbest.cn
-    institution: NA
-    last_name: suzhou@modelbest.cn
-    name: suzhou@modelbest.cn
+    first_name: Zhou
+    institution: ModelBest Inc.
+    last_name: Su
+    name: Zhou Su
     username: suzhou@modelbest.cn
   - dblp_id: https://dblp.org/pid/80/2665
     emails: '****@gmail.com'
@@ -4515,10 +4509,10 @@
     name: Zhongwu Zhai
     username: ~Zhongwu_Zhai1
   - emails: liuxiaoming@modelbest.cn
-    first_name: liuxiaoming@modelbest.cn
-    institution: NA
-    last_name: liuxiaoming@modelbest.cn
-    name: liuxiaoming@modelbest.cn
+    first_name: Xiaoming
+    institution: ModelBest Inc.
+    last_name: Liu
+    name: Xiaoming Liu
     username: liuxiaoming@modelbest.cn
   - emails: '****@uibe.edu.cn'
     first_name: ''
@@ -4526,16 +4520,16 @@
     name: Meiyudong
     username: ~Meiyudong1
   - emails: xujianming@modelbest.cn
-    first_name: xujianming@modelbest.cn
-    institution: NA
-    last_name: xujianming@modelbest.cn
-    name: xujianming@modelbest.cn
+    first_name: Jianming
+    institution: ModelBest Inc.
+    last_name: Xu
+    name: Jianming Xu
     username: xujianming@modelbest.cn
   - emails: tianhongyan@modelbest.cn
-    first_name: tianhongyan@modelbest.cn
-    institution: NA
-    last_name: tianhongyan@modelbest.cn
-    name: tianhongyan@modelbest.cn
+    first_name: Hongyan
+    institution: ModelBest Inc.
+    last_name: Tian
+    name: Hongyan Tian
     username: tianhongyan@modelbest.cn
   - emails: '****@gmail.com'
     first_name: Chongyi
