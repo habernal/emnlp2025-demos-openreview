@@ -72,7 +72,12 @@ all done by e-mailing them; I always uploaded the final camera ready version to 
 Needs to be fixed manually in papers.yml -- look at the paper PDF, find the author who might have the given e-mail, and fix first name, last name, name, and institution
 
 
+## Fixing reviewers
 
+in `program_committee.yml`
+
+* We can delete the entire block of "invited_reviewers" - they should not appear in the proceedings :)
+* There are 185 reviewers, which matches OR - but there are also those who actually delivered zero reviews, so we should manually delete them from the proceedings
 
 
 ## ACL pub check
