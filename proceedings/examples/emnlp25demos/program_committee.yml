@@ -178,6 +178,7 @@
     username: ~Tirthankar_Ghosal1
   - dblp_id: https://dblp.org/pid/255/6993
     emails: '****@illinois.edu'
+    institution: University of Illinois at Urbana-Champaign
     first_name: Chi
     google_scholar_id: https://scholar.google.com.sg/citations?user=DcSvbuAAAAAJ&hl=en
     homepage: https://glaciohound.github.io
@@ -301,6 +302,7 @@
     first_name: Raúl
     google_scholar_id: https://scholar.google.fi/citations?user=nufKCR8AAAAJ&hl=en
     homepage: https://jrvc.github.io
+    institution: University of Helsinki
     last_name: Vázquez
     name: Raúl Vázquez
     semantic_scholar_id: https://www.semanticscholar.org/author/Ra%C3%BAl-V%C3%A1zquez/119942558
