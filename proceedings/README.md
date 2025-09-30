@@ -43,10 +43,12 @@ downloads `program_committee.yml` which should be copied and edited to the demo 
 
 ### Compress excessive bitmap graphics in PDFs
 
+300 dpi max
+
 ```plaintext
 cd papers
+for i in *.pdf ; do fname=$(basename "$i" .pdf); gs -sDEVICE=pdfwrite -dCombapibilityLevel=1.4 -dPDFSETTINGS=/printer -dColorImageResolution=300 -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${fname}_comp.pdf" "${i}"; rm "${i}"; mv "${fname}_comp.pdf" "${i}"; done
 ```
-gs -sDEVICE=pdfwrite -dCombapibilityLevel=1.4 -dPDFSETTINGS=/printer -dColorImageResolution=300 -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${2}" "${1}"
 
 
 
@@ -63,6 +65,10 @@ It generates the full proceedings PDF in `output` (takes a while for 77 papers..
 all done by e-mailing them; I always uploaded the final camera ready version to OR so there is only one source of truth
 
 139 should be compressed - 10 MB :/
+
+## Fixing authors info missing in OR
+
+
 
 
 
