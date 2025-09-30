@@ -41,6 +41,15 @@ downloads `program_committee.yml` which should be copied and edited to the demo 
 * Copy into it the `papers` folder with all 77 PDFs from the previous step
 * Copy the `papers.yml` + `program_committee.yml` files too
 
+### Compress excessive bitmap graphics in PDFs
+
+```plaintext
+cd papers
+```
+gs -sDEVICE=pdfwrite -dCombapibilityLevel=1.4 -dPDFSETTINGS=/printer -dColorImageResolution=300 -dNOPAUSE -dQUIET -dBATCH -sOutputFile="${2}" "${1}"
+
+
+
 ## Generate the proceedings
 
 ```plaintext
