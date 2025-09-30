@@ -459,44 +459,11 @@
     middle_name: Antonio Sobrevilla
     name: Marco Antonio Sobrevilla Cabezudo
     username: ~Marco_Antonio_Sobrevilla_Cabezudo3
-  - dblp_id: https://dblp.org/pid/252/0188
-    emails: '****@gmail.com'
-    first_name: Yekun
-    google_scholar_id: https://scholar.google.com/citations?user=P0NRuRYAAAAJ
-    homepage: https://cyk1337.github.io/
-    institution: Baidu
-    last_name: Chai
-    name: Yekun Chai
-    semantic_scholar_id: https://www.semanticscholar.org/author/Yekun-Chai/1395701436
-    username: ~Yekun_Chai1
   - emails: '****@gmail.com'
     first_name: Aunabil
     last_name: Chakma
     name: Aunabil Chakma
     username: ~Aunabil_Chakma1
-  - dblp_id: https://dblp.org/pid/229/7580
-    emails: '****@gmail.com'
-    first_name: Raghuveer
-    google_scholar_id: https://scholar.google.com/citations?user=HFwSkGIAAAAJ&hl=en
-    institution: Google
-    last_name: Chanda
-    name: Raghuveer Chanda
-    orcid: https://orcid.org/0009-0003-5184-7391
-    username: ~Raghuveer_Chanda1
-  - emails: '****@dau.ac.in'
-    first_name: Ankush
-    google_scholar_id: https://scholar.google.com/citations?user=FJBupV4AAAAJ
-    institution: Dhirubhai ambani University (Previously DAIICT))
-    last_name: Chander
-    name: Ankush Chander
-    username: ~Ankush_Chander1
-  - emails: '****@dau.ac.in'
-    first_name: Ankush
-    google_scholar_id: https://scholar.google.com/citations?user=FJBupV4AAAAJ
-    institution: Dhirubhai ambani University (Previously DAIICT))
-    last_name: Chander
-    name: Ankush Chander
-    username: ~Ankush_Chander1
   - emails: '****@g.ucla.edu'
     first_name: Nischal Reddy
     google_scholar_id: https://scholar.google.co.in/citations?user=1Hqy7eMAAAAJ&hl=en
@@ -544,14 +511,6 @@
     last_name: Chen
     name: Lihu Chen
     username: ~Lihu_Chen1
-  - emails: '****@gmail.com'
-    first_name: Daiwei
-    google_scholar_id: https://scholar.google.com/citations?user=x7b5TJMAAAAJ
-    homepage: https://github.com/ChenDaiwei-99
-    institution: University of Wisconsin - Madison
-    last_name: Chen
-    name: Daiwei Chen
-    username: ~Daiwei_Chen1
   - dblp_id: https://dblp.org/pid/263/6759
     emails: '****@isi.edu'
     first_name: Hyundong
@@ -563,20 +522,6 @@
     name: Hyundong Justin Cho
     semantic_scholar_id: https://www.semanticscholar.org/author/91009922
     username: ~Hyundong_Justin_Cho1
-  - emails: '****@utdallas.edu'
-    first_name: Sanjay
-    google_scholar_id: https://scholar.google.com/citations?user=3ytmxroAAAAJ&hl=en
-    institution: University of Texas at Dallas
-    last_name: Das
-    name: Sanjay Das
-    username: ~Sanjay_Das1
-  - emails: '****@utdallas.edu'
-    first_name: Sanjay
-    google_scholar_id: https://scholar.google.com/citations?user=3ytmxroAAAAJ&hl=en
-    institution: University of Texas at Dallas
-    last_name: Das
-    name: Sanjay Das
-    username: ~Sanjay_Das1
   - dblp_id: https://dblp.org/pid/17/6058-2
     emails: '****@ntt.com'
     first_name: Hiroyuki
@@ -649,16 +594,6 @@
     middle_name: P
     name: Kshitij P Fadnis
     username: ~Kshitij_P_Fadnis1
-  - dblp_id: https://dblp.org/pid/405/3850
-    emails: '****@gmail.com'
-    first_name: Enfa
-    google_scholar_id: https://scholar.google.com/citations?user=YAmFxdgAAAAJ&hl=en
-    homepage: https://www.beingenfa.com/
-    institution: University of Arizona
-    last_name: Fane
-    name: Enfa Fane
-    orcid: https://orcid.org/0000-0001-7689-8740
-    username: ~Enfa_Fane1
   - emails: '****@ifi.uio.no'
     first_name: Mariia
     google_scholar_id: https://scholar.google.com/citations?user=9ciZ-TkAAAAJ&hl=ru
@@ -775,20 +710,6 @@
     last_name: Grotov
     name: Konstantin Grotov
     username: ~Konstantin_Grotov1
-  - emails: '****@andrew.cmu.edu'
-    first_name: Gefei
-    homepage: https://frankgu3528.github.io/
-    last_name: Gu
-    name: Gefei Gu
-    username: ~Gefei_Gu1
-  - dblp_id: https://dblp.org/pid/325/1839
-    emails: '****@nudt.edu.cn'
-    first_name: Renxiang
-    google_scholar_id: https://scholar.google.com.hk/citations?user=V7ZiJtUAAAAJ&hl=zh-CN&oi=ao
-    last_name: Guan
-    name: Renxiang Guan
-    orcid: https://orcid.org/0000-0002-7201-9208
-    username: ~Renxiang_Guan1
   - emails: '****@gmail.com'
     first_name: Xuehang
     last_name: Guo
@@ -848,24 +769,6 @@
     last_name: He
     name: Chaoqun He
     username: ~Chaoqun_He1
-  - dblp_id: https://dblp.org/pid/276/6343.html
-    emails: '****@ornl.gov'
-    first_name: Emily
-    google_scholar_id: https://scholar.google.com/citations?user=eTzUe54AAAAJ&hl=en
-    institution: Oak Ridge National Laboratory
-    last_name: Herron
-    name: Emily Herron
-    orcid: https://orcid.org/0000-0002-7300-8172
-    username: ~Emily_Herron1
-  - dblp_id: https://dblp.org/pid/276/6343.html
-    emails: '****@ornl.gov'
-    first_name: Emily
-    google_scholar_id: https://scholar.google.com/citations?user=eTzUe54AAAAJ&hl=en
-    institution: Oak Ridge National Laboratory
-    last_name: Herron
-    name: Emily Herron
-    orcid: https://orcid.org/0000-0002-7300-8172
-    username: ~Emily_Herron1
   - dblp_id: https://dblp.org/pid/10/8427
     emails: '****@stat.uni-muenchen.de'
     first_name: Christian
@@ -1020,20 +923,6 @@
     orcid: https://orcid.org/0000-0003-0429-8644
     semantic_scholar_id: https://www.semanticscholar.org/author/Andrei-Kucharavy/6564918
     username: ~Andrei_Kucharavy1
-  - emails: '****@iitp.ac.in'
-    first_name: Sandeep
-    homepage: https://www.linkedin.com/in/sandeep-kumar-a51329197
-    institution: Indian Institute of Technology, Patna
-    last_name: Kumar
-    name: Sandeep Kumar
-    username: ~Sandeep_Kumar9
-  - emails: '****@iitp.ac.in'
-    first_name: Sandeep
-    homepage: https://www.linkedin.com/in/sandeep-kumar-a51329197
-    institution: Indian Institute of Technology, Patna
-    last_name: Kumar
-    name: Sandeep Kumar
-    username: ~Sandeep_Kumar9
   - dblp_id: https://dblp.org/pid/190/7973
     emails: '****@pku.org.cn'
     first_name: Yuxuan
@@ -1105,11 +994,6 @@
     last_name: Li
     name: Weijiang Li
     username: ~Weijiang_Li1
-  - emails: '****@gatech.edu'
-    first_name: Andrew
-    last_name: Li
-    name: Andrew Li
-    username: ~Andrew_Li3
   - emails: '****@utdallas.edu'
     first_name: Ruochen
     google_scholar_id: https://scholar.google.com/citations?user=cUNnSaEAAAAJ
@@ -1208,20 +1092,6 @@
     last_name: Luo
     name: Qinyu Luo
     username: ~Qinyu_Luo1
-  - emails: '****@ornl.gov'
-    first_name: Maria
-    google_scholar_id: https://scholar.google.com/citations?user=dVn2_OsAAAAJ
-    institution: Oak Ridge National Laboratory
-    last_name: Mahbub
-    name: Maria Mahbub
-    username: ~Maria_Mahbub1
-  - emails: '****@ornl.gov'
-    first_name: Maria
-    google_scholar_id: https://scholar.google.com/citations?user=dVn2_OsAAAAJ
-    institution: Oak Ridge National Laboratory
-    last_name: Mahbub
-    name: Maria Mahbub
-    username: ~Maria_Mahbub1
   - dblp_id: https://dblp.org/pid/99/9766
     emails: '****@ujaen.es'
     first_name: Eugenio
@@ -1233,16 +1103,6 @@
     orcid: https://orcid.org/0000-0002-5279-8355
     semantic_scholar_id: https://www.semanticscholar.org/author/Eugenio-Mart%C3%ADnez-C%C3%A1mara/1397974254
     username: ~Eugenio_Martínez-Cámara1
-  - dblp_id: https://dblp.org/pid/148/3798
-    emails: '****@umd.edu'
-    first_name: Puneet
-    google_scholar_id: https://scholar.google.co.in/citations?user=Zb4-A0AAAAAJ&hl=en
-    homepage: https://themadaiguy.github.io/
-    institution: Adobe Systems
-    last_name: Mathur
-    name: Puneet Mathur
-    semantic_scholar_id: https://www.semanticscholar.org/author/144144799
-    username: ~Puneet_Mathur2
   - emails: '****@asu.edu'
     first_name: Shivam
     google_scholar_id: https://scholar.google.com/citations?user=AoD5dgEAAAAJ&hl=en
@@ -1261,15 +1121,6 @@
     name: John Philip McCrae
     orcid: https://orcid.org/0000-0002-7227-1331
     username: ~John_Philip_McCrae1
-  - dblp_id: https://dblp.org/pid/165/0783.html
-    emails: '****@gmail.com'
-    first_name: Amita
-    google_scholar_id: https://scholar.google.com/citations?user=8qHi6csAAAAJ&hl=en
-    institution: Amazon
-    last_name: Misra
-    name: Amita Misra
-    semantic_scholar_id: https://www.semanticscholar.org/author/Amita-Misra/2461655
-    username: ~Amita_Misra2
   - dblp_id: https://dblp.org/pid/313/3093
     emails: '****@tu-darmstadt.de'
     first_name: Osama
@@ -1337,16 +1188,6 @@
     last_name: Niu
     name: Cheng Niu
     username: ~Cheng_Niu2
-  - dblp_id: https://dblp.org/pid/336/6083
-    emails: '****@zju.edu.cn'
-    first_name: Yixin
-    google_scholar_id: https://scholar.google.com/citations?user=QVTr5dQAAAAJ
-    homepage: https://oe-heart.github.io/
-    last_name: Ou
-    name: Yixin Ou
-    orcid: https://orcid.org/0000-0001-7656-8004
-    semantic_scholar_id: https://www.semanticscholar.org/author/Yixin-Ou/2196928874
-    username: ~Yixin_Ou1
   - dblp_id: https://dblp.org/pid/353/1437.html
     emails: '****@gmail.com'
     first_name: Leyi
@@ -1445,12 +1286,6 @@
     orcid: https://orcid.org/0000-0003-3849-0394
     semantic_scholar_id: https://www.semanticscholar.org/author/Tim-Schopf/2120192839
     username: ~Tim_Schopf1
-  - dblp_id: https://dblp.org/rec/conf/icmi/FitzgeraldSYPB23
-    emails: '****@rams.colostate.edu'
-    first_name: Ethan
-    last_name: Seefried
-    name: Ethan Seefried
-    username: ~Ethan_Seefried1
   - emails: '****@seongbum.com'
     first_name: Seongbum
     homepage: https://www.seongbum.com
@@ -1515,12 +1350,6 @@
     last_name: Singhal
     name: Aryan Singhal
     username: ~Aryan_Singhal2
-  - emails: '****@gmail.com'
-    first_name: Marco
-    last_name: Sobrevilla Cabezudo
-    middle_name: Antonio
-    name: Marco Antonio Sobrevilla Cabezudo
-    username: ~Marco_Antonio_Sobrevilla_Cabezudo1
   - dblp_id: https://dblp.org/pid/150/3384
     emails: '****@pjlab.org.cn'
     first_name: Jiahe
@@ -1627,20 +1456,6 @@
     last_name: Tao
     name: Yudong Tao
     username: ~Yudong_Tao1
-  - emails: '****@nlplab.cc'
-    first_name: Kai-Wen
-    google_scholar_id: https://scholar.google.com.tw/citations?hl=zh-TW&view_op=list_works&authuser=1&gmla=AJsN-F4XZhSrvMnKHqgiKACxo7qw4XJR5fEmR_mn50gWuTIFdXti3-4x4V_B2uhTTZ28oa4Z-NaUHZtBRHY5iR1FgoMR8CXoc4Zt9VYRu8Bd_doi11kCwk4&user=Wnrxqj4AAAAJ
-    institution: National Tsinghua University
-    last_name: Tuan
-    name: Kai-Wen Tuan
-    username: ~Kai-Wen_Tuan1
-  - emails: '****@nlplab.cc'
-    first_name: Kai-Wen
-    google_scholar_id: https://scholar.google.com.tw/citations?hl=zh-TW&view_op=list_works&authuser=1&gmla=AJsN-F4XZhSrvMnKHqgiKACxo7qw4XJR5fEmR_mn50gWuTIFdXti3-4x4V_B2uhTTZ28oa4Z-NaUHZtBRHY5iR1FgoMR8CXoc4Zt9VYRu8Bd_doi11kCwk4&user=Wnrxqj4AAAAJ
-    institution: National Tsinghua University
-    last_name: Tuan
-    name: Kai-Wen Tuan
-    username: ~Kai-Wen_Tuan1
   - emails: '****@kuleuven.be'
     first_name: Bram
     google_scholar_id: https://scholar.google.com/citations?user=mXpe-M8AAAAJ&hl=en
@@ -1915,13 +1730,6 @@
     name: Chujie Zheng
     semantic_scholar_id: https://www.semanticscholar.org/author/Chujie-Zheng/146452866
     username: ~Chujie_Zheng2
-  - emails: '****@outlook.com'
-    first_name: Tong
-    institution: Institute of automation, Chinese academy of science
-    last_name: Zhou
-    name: Tong Zhou
-    semantic_scholar_id: https://www.semanticscholar.org/author/Tong-Zhou/144137458
-    username: ~Tong_Zhou6
   - emails: '****@gmail.com'
     first_name: Tiantian
     google_scholar_id: https://scholar.google.com/citations?user=LJ8M5ewAAAAJ&hl=en
