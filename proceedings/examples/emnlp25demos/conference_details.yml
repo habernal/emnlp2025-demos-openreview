@@ -3,9 +3,9 @@ event_name: The 2025 Conference on Empirical Methods in Natural Language Process
 volume_name: main
 cover_subtitle: Proceedings of the System Demonstrations
 anthology_venue_id: "EMNLP"
-start_date: 2025-11-05
-end_date: 2025-11-07
-isbn: 979-8-89176-246-6
+start_date: 2025-11-04
+end_date: 2025-11-09
+isbn: 979-8-89176-334-0
 location: Suzhou, China
 editors:
   - first_name: Ivan
