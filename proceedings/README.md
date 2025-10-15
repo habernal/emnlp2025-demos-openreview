@@ -55,6 +55,14 @@ Final size 81 MB instead of 205 MB orig
 
 ## Generate the proceedings
 
+(
+You need a local full latex installation, in my case the following on Ubuntu 24.04
+```plaintext
+sudo apt-get install texlive-full
+```
+otherwise you'll get many random errors regarding encoding, babel, etc.
+)
+
 ```plaintext
 $ rm -rf ./build/ ; rm -rf ./output/; export PYTHONPATH=.; python bin/generate examples/emnlp25demos --proceedings --overwrite
 ```
